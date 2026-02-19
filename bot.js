@@ -19,7 +19,7 @@ const APIFY_TOKEN = process.env.APIFY_TOKEN;
 
 // Apify Actor IDs
 const DOMAIN_ACTOR = "easyapi~domain-com-au-property-scraper";
-const REA_ACTOR = "jupri~realestate-com-au-scraper"; // realestate.com.au scraper
+const REA_ACTOR = "abotapi/realestate-au-scraper"; // realestate.com.au scraper
 
 // ─── BOT SETUP ───────────────────────────────────────────────────────────────
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
